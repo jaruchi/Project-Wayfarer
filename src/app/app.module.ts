@@ -6,10 +6,9 @@ import { AppComponent } from './app.component';
 import { SiteHeaderComponent } from './site-header/site-header.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { TopicComponent } from './topic/topic.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
 import { CitiesComponent } from './cities/cities.component';
 import { PostsComponent } from './posts/posts.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -18,7 +17,11 @@ import { PostsComponent } from './posts/posts.component';
     GalleryComponent,
     TopicComponent,
     CitiesComponent,
-    PostsComponent,
+    PostsComponent
+  ],
+  imports: [
+    BrowserModule,
+    NgbModule
   ],
   imports: [BrowserModule, NgbModule],
   providers: [],
