@@ -10,13 +10,17 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 
 
+import { CitiesComponent } from './cities/cities.component';
+import { PostsComponent } from './posts/posts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SiteHeaderComponent,
     GalleryComponent,
-    TopicComponent
+    TopicComponent,
+    CitiesComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,
