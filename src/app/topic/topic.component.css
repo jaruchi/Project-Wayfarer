@@ -1,0 +1,28 @@
+.topic-container{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+  h2 {
+    text-align: center;
+    color: darkslateblue;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  h3 {
+    padding: 5px;
+    font-size: 24px;
+  }
+  
+  .topic-item {
+    display: block;
+    flex-wrap: wrap;
+    size: 100px;
+    overflow-wrap: break-word;
+  }
+  .topic-item p {
+    padding: 5px;
+    font-size: 14px;
+  }
