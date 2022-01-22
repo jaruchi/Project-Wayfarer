@@ -1,0 +1,22 @@
+.city-info-container{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+    
+}
+.header{
+    display: flex;
+    flex:3
+}
+.city-profile-image{
+    flex:4;
+    height: 250px;
+}
+.city-info-container img{
+    max-height: 100%;
+}

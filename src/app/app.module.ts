@@ -9,6 +9,7 @@ import { TopicComponent } from './topic/topic.component';
 import { CitiesComponent } from './cities/cities.component';
 import { PostsComponent } from './posts/posts.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CityComponent } from './city/city.component';
 
 @NgModule({
   declarations: [
@@ -28,9 +29,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
         component: GalleryComponent
       },
       {
-          path: 'cities',
-          component: CitiesComponent
-      },
+        path: 'cities',
+        component: CitiesComponent,
+        children: [
+          {
+            path: ':id',
+            component: CityComponent,
+          },]
+        },
   ])
   ],
   providers: [],
