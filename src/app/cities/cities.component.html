@@ -2,15 +2,12 @@
     <div class='main-container'>
         <div class='city-list'>
             <h1>Cities</h1>
-
             <div *ngFor="let city of cities" class="city-component">
                 <a routerLink="/cities/{{city.id}}">
                     <div class='city-card'>
-
                         <div class="img-container">
                             <img src="{{city.imageUrl}}" alt="">
                         </div>
-
                         <h1>
                             {{city.name}}
                         </h1>
