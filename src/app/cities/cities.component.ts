@@ -1,6 +1,6 @@
-
 import { Component, OnInit } from '@angular/core';
 import { CITIES } from '../cities';
+
 @Component({
   selector: 'app-cities',
   templateUrl: './cities.component.html',
@@ -8,16 +8,10 @@ import { CITIES } from '../cities';
 })
 export class CitiesComponent implements OnInit {
   cities: any = CITIES;
+
   constructor() { }
+
   ngOnInit(): void {
   }
+
 }
-
-
-
-
-
-
-
-
-
