@@ -22,8 +22,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     NgbModule
-  ],
-  imports: [BrowserModule, NgbModule],
+  ], 
   providers: [],
   bootstrap: [AppComponent],
 })
