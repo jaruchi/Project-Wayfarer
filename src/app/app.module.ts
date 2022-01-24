@@ -8,11 +8,10 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { TopicComponent } from './topic/topic.component';
 import { PostsComponent } from './posts/posts.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { CityComponent } from './city/city.component'; 
+import { CityComponent } from './city/city.component';
 import { PostComponent } from './post/post.component';
 import { CommonModule } from '@angular/common';
 import { CitiesComponent } from './cities/cities.component';
-// import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
