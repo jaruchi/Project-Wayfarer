@@ -1,4 +1,3 @@
-
 <div class="city-info-container">
     <div class="header">
         <div class='city-heading'>
@@ -9,6 +8,7 @@
             <img src="{{city.imageUrl}}" alt="" />
         </div>
     </div>
+
     <div class="posts-data" *ngIf="posts">
         <h1>Posts</h1>
         <div *ngFor="let post of posts; let i = index" class='post'>
