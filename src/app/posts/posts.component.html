@@ -1,4 +1,15 @@
-<p>posts works!</p>
-<div *ngFor="let post of posts">
-    {{post.title}}
+<div *ngFor="let post of posts" class='post-result'>
+    <div class='city'> {{post.cityName}}</div>
+    <div class="post">
+        <div class="post-image">
+            <img src="{{post.imageUrl}}" alt="">
+        </div>
+        <span>
+            <h2>
+                <a routerLink="/post/{{post.cityId}}/{{post.postIndex}}">{{post.title}}</a>
+            </h2>
+            <span class='author'>by: {{post.author}}</span>
+        </span>
+        <div>{{post.comment}}</div>
+    </div>
 </div>

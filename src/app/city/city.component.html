@@ -1,26 +1,28 @@
 <div class="city-info-container">
     <div class="header">
-       
         <div class='city-heading'>
             <h1 id="city-name">{{city.name}}</h1>
-            <h2>{{city.country}}</h2>
+            <h3>{{city.country}}</h3>
         </div>
         <div class='city-profile-image'>
             <img src="{{city.imageUrl}}" alt="" />
         </div>
     </div>
-</div>
-<div class="posts-data">
-    <h1>Posts</h1>
-    <div *ngFor="let post of posts"}>
-        <div class="col-sm-2 post-image">
-            <img src="{{city.imageUrl}}" alt="">
-        </div>
-        <div class="col-sm-8">
-            <h2>
-                {{post.title}}
-            </h2>
-            <p>{{post.comment}}</p>
+
+    <div class="posts-data" *ngIf="posts">
+        <h1>Posts</h1>
+        <div *ngFor="let post of posts; let i = index" class='post'>
+            <div class="post-image">
+                <img src="{{post.imageUrl}}" alt="">
+            </div>
+            <div class="post-title">
+                <a routerLink="/post/{{city.id}}//{{i}}">
+                    <h2>
+                        {{post.title}}
+                    </h2>
+                </a>
+                <p>{{post.comment}}</p>
+            </div>
         </div>
     </div>
 </div>

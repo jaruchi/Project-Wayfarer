@@ -1,0 +1,14 @@
+.post-info-container{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+}
+h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-site-header',
@@ -6,10 +7,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./site-header.component.css']
 })
 export class SiteHeaderComponent implements OnInit {
+  searchterm: string = '';
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
+
+  action(){
+    this.router.navigate(['/posts/' + this.searchterm]);
+ }
 
 }

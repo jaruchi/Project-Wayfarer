@@ -3,7 +3,9 @@
 
     <li class="nav-item active">
       <a class="nav-link fav-icon" routerLink="/">
-        <img src='' />
+        <div class="profile-image">
+        <img src='/assets/images/travel.jpg' width="50" height="60"/>
+      </div> 
       </a>
     </li>
     <li class="nav-item active">
@@ -15,4 +17,9 @@
       <a class="nav-link" routerLink="/cities">Cities</a>
     </li>
   </ul>
+
+  <div class="searchbox" >
+    <input [(ngModel)]="searchterm" type="text" placeholder="Search posts..." />
+    <input (click)="action()" (keyup.enter)="action()" type="submit" value="Search" [disabled]="!searchterm"/>
+  </div>
 </nav>

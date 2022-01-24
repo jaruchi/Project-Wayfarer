@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { SiteHeaderComponent } from './site-header/site-header.component';
@@ -11,6 +12,7 @@ import { PostsComponent } from './posts/posts.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CityComponent } from './city/city.component';
 import { CommonModule } from '@angular/common';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,14 @@ import { CommonModule } from '@angular/common';
     TopicComponent,
     CitiesComponent,
     PostsComponent,
+    CityComponent,
+    PostComponent,
   ],
   imports: [
     BrowserModule,
     NgbModule,
     CommonModule,
+    FormsModule,
     RouterModule.forRoot([
       {
         path: '',
@@ -41,7 +46,11 @@ import { CommonModule } from '@angular/common';
         ],
       },
       {
-        path: 'posts/:searchterm?',
+        path: 'post/:id/:index',
+        component: PostComponent,
+      },
+      {
+        path: 'posts/:searchterm',
         component: PostsComponent,
       },
     ]),

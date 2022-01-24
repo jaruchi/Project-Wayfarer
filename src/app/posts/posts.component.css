@@ -1,0 +1,23 @@
+
+
+.post{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid gray;
+    margin: 5px;
+    border-radius: 10px;
+    gap:1rem;
+}
+
+.post-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5px;
+}
+.post-image img{
+    max-height: 100%;
+    border-radius: 10px;
+}
