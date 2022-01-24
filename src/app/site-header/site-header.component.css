@@ -5,3 +5,11 @@
     flex-direction: row ;
     justify-content: center;
 }
+.profile-image{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+.profile-image img{
+    max-width: 100%;
+}
