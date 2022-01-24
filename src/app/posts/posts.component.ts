@@ -36,9 +36,9 @@ export class PostsComponent implements OnInit {
 
       let filtertedPosts = allposts.filter((p) => {
         return (
-          p.title.includes(searchterm) ||
-          p.author.includes(searchterm) ||
-          p.comment.includes(searchterm)
+          p.title.toLowerCase().includes(searchterm) ||
+          p.author.toLowerCase().includes(searchterm) ||
+          p.comment.toLowerCase().includes(searchterm)
         );
       });
       this.posts = filtertedPosts;
