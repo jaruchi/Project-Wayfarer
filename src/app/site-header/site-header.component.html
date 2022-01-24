@@ -1,20 +1,18 @@
-<!-- <div>
-    <p>Wayfarer</p>
-    <a href="#cities" >Cities</a>
-    <input type="text" placeholder="Search Cities"/>
-</div> -->
-
 <nav class="navbar navbar-dark bg-primary">
-    <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Wayfarer <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/cities">Cities</a>
-        </li>
-        </ul>
-  </nav>
-
-  <!-- <router-outlet></router-outlet> -->
-
-
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link fav-icon" routerLink="/">
+        <div class="profile-image">
+        <img src='/assets/images/travel.jpg' width="50" height="60"/>
+      </div>
+      </a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" routerLink="/">
+        Wayfarer
+      </a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" routerLink="/cities">Cities</a>
+    </li>
+  </ul>

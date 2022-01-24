@@ -1,15 +1,23 @@
-<p>cities works!</p>
-<ul>
-    <li>
-        "London"
-    </li>
-    <li>
-        "Sydney"
-    </li>
-    <li>
-        "San Fransisco"
-    </li>
-    <li>
-        "Seattle"
-    </li>
-</ul>
+
+<section class="cities-container">
+    <div class='main-container'>
+        <div class='city-list'>
+            <h1>Cities</h1>
+            <div *ngFor="let city of cities" class="city-component">
+                <a routerLink="/cities/{{city.id}}">
+                    <div class='city-card'>
+                        <div class="img-container">
+                            <img src="{{city.imageUrl}}" alt="">
+                        </div>
+                        <h1>
+                            {{city.name}}
+                        </h1>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="right-container">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</section>
