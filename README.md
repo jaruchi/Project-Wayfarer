@@ -20,7 +20,8 @@ https://medium.com/geekculture/how-to-easily-deploy-your-first-angular-app-on-he
 * The site-wide header.
 * The name of the city.
 * An iconic photo of the city.
- 
+![Screenshot (35)_LI](https://user-images.githubusercontent.com/29801753/151030708-042900ae-2031-4e2c-bc7d-a70e8ef1abd9.jpg)
+
 - [x] View a list of posts on the San Francisco page:
 * Sorted by newest first.
 * With the post titles linked to the individual post "show" pages.
