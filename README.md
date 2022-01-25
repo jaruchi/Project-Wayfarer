@@ -8,10 +8,6 @@ https://medium.com/geekculture/how-to-easily-deploy-your-first-angular-app-on-he
 
 # Project-Wayfarer Ruchi & Jess
 
-## OUR WIREFRAME
-
-![Screenshot (29)](https://user-images.githubusercontent.com/29801753/150398011-c6c33258-dbb1-4068-a1ea-901455b02ee2.png)
-
 # Sprint 1: Landing Page
 
 - [x] Navigate to "/" and see a basic splash page with the name of the website.
