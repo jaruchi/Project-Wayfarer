@@ -6,7 +6,7 @@
 
 https://medium.com/geekculture/how-to-easily-deploy-your-first-angular-app-on-heroku-65dd546c8181
 
-# SPRINTS 
+# SPRINTS 🏎
 
 # Sprint 1: Landing Page 🛬
 
@@ -40,6 +40,8 @@ https://medium.com/geekculture/how-to-easily-deploy-your-first-angular-app-on-he
 
 # Sprint 4: Weather API 🌦
 - [x] Call Open Weather API for each city to display the current weather on each city's page.
+![Cityweather](https://user-images.githubusercontent.com/29801753/151035192-33c3cd18-d026-49a6-bc37-e0cd5829ed2b.png)
+
 
 
 
