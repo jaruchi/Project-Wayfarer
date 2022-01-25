@@ -22,20 +22,21 @@ https://medium.com/geekculture/how-to-easily-deploy-your-first-angular-app-on-he
 * An iconic photo of the city.
 ![Screenshot (35)_LI](https://user-images.githubusercontent.com/29801753/151030708-042900ae-2031-4e2c-bc7d-a70e8ef1abd9.jpg)
 
-- [x] View a list of posts on the San Francisco page:
+- [x] View a list of posts on the San Francisco page 🌉:
 * Sorted by newest first.
 * With the post titles linked to the individual post "show" pages.
 
 - [x] Use the search bar to search through the posts' title and/or content.
 - [x] Click on the title of one of their posts and be redirected to a "show" page for that post.
 - [x] View post "show" pages with title, author, and content.
+ ![Citypost](https://user-images.githubusercontent.com/29801753/151034584-4a41693f-fd11-4913-9265-09ca40a2ac81.png)
 
-# Sprint 3: Validations
+# Sprint 3: Validations ✅
 
 * A user should be able to:
 - [x] View city pages for "London" and "Gibraltar".
- -[ ] A post's title must be between 1 and 200 characters.
-- [ ] A post's content must not be empty.
+- [] A post's title must be between 1 and 200 characters.
+- [] A post's content must not be empty.
 
 # Sprint 4: Weather API 🌦
 - [x] Call Open Weather API for each city to display the current weather on each city's page.
