@@ -12,6 +12,8 @@ import { CityComponent } from './city/city.component';
 import { PostComponent } from './post/post.component';
 import { CommonModule } from '@angular/common';
 import { CitiesComponent } from './cities/cities.component';
+import { WeatherComponent } from './weather/weather.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,8 +25,10 @@ import { CitiesComponent } from './cities/cities.component';
     PostsComponent,
     CityComponent,
     PostComponent,
+    WeatherComponent,
   ],
   imports: [
+    HttpClientModule,
     BrowserModule,
     NgbModule,
     CommonModule,

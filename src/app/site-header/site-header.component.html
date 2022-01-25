@@ -19,7 +19,7 @@
   </ul>
 
   <div class="searchbox">
-    <input [(ngModel)]="searchterm" type="text" placeholder="Search posts..." />
-    <input (click)="action()" (keyup.enter)="action()" type="submit" value="Search" [disabled]="!searchterm" />
+    <input [(ngModel)]="searchterm" (keyup.enter)="action()" type="text" placeholder="Search posts..." />
+    <input (click)="action()"  type="submit" value="Search" [disabled]="!searchterm" />
   </div>
 </nav>
