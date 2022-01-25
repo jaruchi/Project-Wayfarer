@@ -6,7 +6,7 @@
 
 https://medium.com/geekculture/how-to-easily-deploy-your-first-angular-app-on-heroku-65dd546c8181
 
-# Project-Wayfarer Ruchi & Jess
+# SPRINTS 
 
 # Sprint 1: Landing Page
 
