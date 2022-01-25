@@ -11,6 +11,7 @@ https://medium.com/geekculture/how-to-easily-deploy-your-first-angular-app-on-he
 # Sprint 1: Landing Page
 
 - [x] Navigate to "/" and see a basic splash page with the name of the website.
+  ![Screenshot (33)](https://user-images.githubusercontent.com/29801753/151028777-1dd3016d-1192-495d-b0ee-749a94260534.png)
 - [x] See the site-wide header on every page with a link to home page with list of cities.
 
 # Sprint 2: HomePage
@@ -19,7 +20,8 @@ https://medium.com/geekculture/how-to-easily-deploy-your-first-angular-app-on-he
 * The site-wide header.
 * The name of the city.
 * An iconic photo of the city.
-* 
+![Screenshot (13)](https://user-images.githubusercontent.com/29801753/151030166-9455c6f8-19c9-45b4-af3a-934d9b0f0298.png)
+ 
 - [x] View a list of posts on the San Francisco page:
 * Sorted by newest first.
 * With the post titles linked to the individual post "show" pages.
