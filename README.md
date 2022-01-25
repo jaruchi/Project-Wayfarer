@@ -2,19 +2,19 @@
 ## OUR WIREFRAME 
 ![Screenshot (29)](https://user-images.githubusercontent.com/29801753/150398604-e3113d81-9fa3-4f49-8f91-0a63ddbfb8d1.png)
 
-## Running on heroku
+## Running on heroku 🐱‍🏍
 
 https://medium.com/geekculture/how-to-easily-deploy-your-first-angular-app-on-heroku-65dd546c8181
 
 # SPRINTS 
 
-# Sprint 1: Landing Page
+# Sprint 1: Landing Page 🛬
 
 - [x] Navigate to "/" and see a basic splash page with the name of the website.
   ![Screenshot (33)](https://user-images.githubusercontent.com/29801753/151028777-1dd3016d-1192-495d-b0ee-749a94260534.png)
 - [x] See the site-wide header on every page with a link to home page with list of cities.
 
-# Sprint 2: HomePage
+# Sprint 2: HomePage 💻
 
 - [x] View the "San Francisco" page (at "/cities/1") including:
 * The site-wide header.
@@ -34,12 +34,12 @@ https://medium.com/geekculture/how-to-easily-deploy-your-first-angular-app-on-he
 
 * A user should be able to:
 - [x] View city pages for "London" and "Gibraltar".
- -[x] A post's title must be between 1 and 200 characters.
-- [x] A post's content must not be empty.
+ -[ ] A post's title must be between 1 and 200 characters.
+- [ ] A post's content must not be empty.
 
-# Sprint 4: Weather API
+# Sprint 4: Weather API 🌦
 - [x] Call Open Weather API for each city to display the current weather on each city's page.
 
 
 
-l
+
