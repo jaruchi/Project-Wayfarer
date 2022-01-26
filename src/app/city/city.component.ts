@@ -17,16 +17,12 @@ export class CityComponent implements OnInit {
   new_post_comment = '';
   new_post_author = '';
 
- 
   constructor(
     private route: ActivatedRoute,
     private cityService: CitiesService
-  ) { }
-  
+  ) {}
 
   addNewPost() {
-    
-
     this.cityService.addNewPost(
       this.city.id,
       this.new_post_title,
@@ -43,7 +39,6 @@ export class CityComponent implements OnInit {
         return city.id === parseInt(paramId);
       });
       this.posts = this.city.posts;
-      this.posts = this.posts.sort().reverse();
     });
   }
 }
